@@ -1,0 +1,264 @@
+.App-header {
+	background-color: #282c34;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #01dad1;
+	text-decoration: none;
+}
+.App-link:hover {
+	color: white;
+}
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+.brand-logo {
+	width: 90%;
+	display: inline-flex;
+	font-size: 2em;
+	text-decoration: none;
+	font-family: auto;
+	color: white;
+	padding: 10px;
+}
+.card {
+	width: 30%;
+	height: auto;
+	min-height: 300px;
+	border: 1px solid #f7f1f1;
+	border-radius: 10px;
+	margin: 20px auto;
+	background: #212121;
+}
+.todo-card {
+	margin: 10px;
+	width: 90%;
+	border: 1px solid #e8d8d8;
+	border-radius: 1px;
+	box-shadow: 0 3px 5px #ccc5c5;
+	padding: 10px;
+	background: #f1eef0;
+}
+.home-page-layout {
+	display: flex;
+	background: #00142d;
+	padding: 10px;
+	margin: 11px;
+}
+.float {
+	display: flex;
+	float: right;
+	cursor: pointer;
+}
+.title {
+	padding: 10px;
+	margin-bottom: 5px;
+	color: blue;
+}
+.todo-cards {
+	margin: 10px;
+	width: 90%;
+	border: 1px solid #062750;
+	border-radius: 5px;
+	padding: 10px;
+	background: #00142d;
+	color: #ffffff;
+}
+.todo-button {
+	margin: 10px;
+	width: 25%;
+	padding: 0 5px 5px 0px;
+	position: relative;
+	border-bottom: 1px solid #696969;
+	color: #969292;
+}
+.app-title {
+	justify-content: center;
+	display: flex;
+	font-size: 2.2em;
+	padding: 10px;
+	margin: 10px;
+	background: #00142d;
+	border-radius: 5px;
+	border: 1px solid;
+	color: white;
+}
+.input-modal {
+	display: block;
+	position: fixed;
+	z-index: 10;
+	left: 0;
+	top: 50px;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.1);
+	color: 'blue';
+}
+.modal-content {
+	position: relative;
+	background-color: #fefefe;
+	top: 80px;
+	margin: auto;
+	padding: 0 0 20px;
+	border: 1px solid #888;
+	max-width: 600px;
+	min-width: 240px;
+	width: 95%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-animation-name: animatetop;
+	-webkit-animation-duration: 0.4s;
+	animation-name: animatetop;
+	animation-duration: 0.4s;
+	border-radius: 8px;
+	box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.2);
+	background: #1e1e1e;
+}
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+.modal-header {
+	display: flex;
+	justify-content: space-between;
+}
+.modal-body {
+	padding: 2px 40px;
+}
+.form-content {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+	color: #d2cccc;
+}
+.input {
+	border: none;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+	display: block;
+	font-size: 16px;
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding: 4px 0;
+	width: 100%;
+	background: none;
+	text-align: left;
+	color: inherit;
+	background: #252627;
+}
+.label {
+	position: relative;
+	font-size: 16px;
+	display: inline-block;
+	box-sizing: border-box;
+	width: 150px;
+	max-width: 100%;
+	margin: 0;
+	padding: 10px 0;
+	color: #2196f3;
+}
+.red-color {
+	color: #ec2c2c;
+}
+.display-flex-center {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.input-form-button {
+	display: flex;
+	justify-content: center;
+	width: 65%;
+	padding: 15px 0;
+	margin: 25px 40px 20px;
+	border-radius: 6px;
+	background: #045494;
+	border: none;
+	box-shadow: 0 12px 30px -15px #4c4c4c;
+	color: #fff;
+	font-size: 1em;
+	cursor: pointer;
+	text-decoration: none;
+}
+.blue-text-title {
+	font-size: 1.4em;
+	font-weight: 500;
+	color: blue;
+}
+.pie-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.pie {
+	width: 30%;
+	margin-top: 40px;
+}
+.pie-title {
+	font-size: 1.5em;
+	font-weight: 400;
+	margin-left: 88px;
+	margin-bottom: 20px;
+	color: #0e42d8;
+}
+.icon-visiblity {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+.icon {
+	padding: 5px 30px 0px 10px;
+}
+.red-text {
+	width: 50px;
+	height: 25px;
+	background: red;
+}
+.green-text {
+	width: 50px;
+	height: 25px;
+	background: green;
+}
+.blue-text {
+	width: 50px;
+	height: 25px;
+	background: blue;
+}
+.todo-title {
+	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
+	border-bottom: 1px solid;
+	margin-bottom: 5px;
+}
+.todos-title {
+	padding: 10px;
+	margin-bottom: 5px;
+	color: red;
+	font-size: 25px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.doings-title {
+	padding: 10px;
+	margin-bottom: 5px;
+	color: #f9b905;
+	font-size: 25px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.done-title {
+	padding: 10px;
+	margin-bottom: 5px;
+	color: green;
+	font-size: 25px;
+	text-align: center;
+	text-transform: uppercase;
+}

@@ -1,0 +1,22 @@
+Steps to execute:
+
+1. It is assumed that the system is having node >=10 and npm >=6 installed.
+2. Now make a folder in any directory, eg: User/Desktop/ReactApp
+3. Now install npm install create-react-app -g for installing React or it is
+   good if it is preinstall.
+4. Now create a react demo app using create-react-app: User/Desktop/ReactApp>
+   npx install create-react-app demo-app.
+5. Now, cd demo-app and run "npm start" and checks it is opening react 
+   application on port 3000.
+6. Unzip the downloaded folder and copy the folder under the name todoApp to 
+   the same folder where you have created reactApp. i.e; User/Desktop/ReactApp> ls -l
+   demo-app and todoApp folder should be there.
+7. Now copy the node_modules folder from demo-app to todoApp folder.
+8. After copying, install below two dependencies in the todoApp directory:
+	User/Desktop/ReactApp/todoApp> npm install react-router-dom
+	User/Desktop/ReactApp/todoApp> npm install react-minimal-pie-chart
+9.  Now run 
+
+	User/Desktop/ReactApp/todoApp> npm start
+
+	App will open on localhost:3000
